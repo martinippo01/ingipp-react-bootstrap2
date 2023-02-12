@@ -49,7 +49,7 @@ function App() {
             </Carousel.Item>
         </Carousel>
 
-        {/*<MyCard></MyCard>*/}
+        <MyCard></MyCard>
 
     </div>
   );
