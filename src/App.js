@@ -3,13 +3,14 @@ import React from 'react'
 import MyNavBar from "./components/MyNavBar";
 import MyCard from "./components/MyCard";
 import {Carousel} from "react-bootstrap";
+import BottomNavBar from "./components/BottomNavBar";
 
 function App() {
   return (
     <div className="App">
         <MyNavBar></MyNavBar>
 
-        <Carousel>
+        <Carousel style={{backgroundColor:"#ffffff"}}>
             <Carousel.Item>
                 <img
                     className="d-block w-100 imgCarrousel"
@@ -50,7 +51,7 @@ function App() {
         </Carousel>
 
         <MyCard></MyCard>
-
+        <BottomNavBar></BottomNavBar>
     </div>
   );
 }
