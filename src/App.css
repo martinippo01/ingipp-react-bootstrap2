@@ -48,3 +48,8 @@
         height: 700px;
         object-position: 50% 50%;
 }
+
+.optStyle{
+    margin-right: 10px;
+    color: #1e1e1e;
+}
